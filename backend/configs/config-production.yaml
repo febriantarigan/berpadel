@@ -1,0 +1,5 @@
+dynamodb:
+  table: berpadel-table
+  batch_size: 25
+  retry_backoff: 100ms
+  num_retries: 5
