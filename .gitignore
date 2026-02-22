@@ -1,0 +1,10 @@
+# Terraform
+infra/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Build artifacts
+infra/artifacts/
+*.zip
